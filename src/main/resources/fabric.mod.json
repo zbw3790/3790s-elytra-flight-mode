@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_flight_control",
+  "version": "${version}",
+  "name": "Elytra Flight Control",
+  "description": "Mouse Aim鞘翅飞控发行候选；需兼容双端，单控制玩家，当前仅单人及本机回环专服。",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.elytra.control.ElytraFlightControl"
+    ],
+    "client": [
+      "dev.elytra.control.client.ElytraFlightControlClient"
+    ]
+  },
+  "mixins": [
+    "elytra_flight_control.m0d.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "=26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.159.0+26.2"
+  }
+}

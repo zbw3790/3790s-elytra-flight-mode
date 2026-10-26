@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.elytra.control.mixin.m0d",
+  "compatibilityLevel": "JAVA_25",
+  "plugin": "dev.elytra.control.mixin.m0d.M0DMixinPlugin",
+  "mixins": [
+    "M0DServerConnectionMixin",
+    "M0DEntityMixin",
+    "M0DLivingEntityMixin",
+    "M0DGlideAccess",
+    "M0DServerPlayerMixin",
+    "M0DFishingHookMixin",
+    "M4XIngressMixin"
+  ],
+  "client": [
+    "M0DLocalPlayerMixin",
+    "M0DClientConnectionMixin",
+    "M0DEntityCollisionAccess",
+    "M1InputMixin",
+    "M2MouseMixin",
+    "M3CameraMixin",
+    "M3AvatarStateMixin",
+    "M3WorldExtractMixin",
+    "M3AvatarMixin",
+    "M3GameRendererMixin",
+    "M3CullMixin",
+    "M4XIntegratedPauseMixin",
+    "M4XKeyboardMixin",
+    "M4XMouseButtonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

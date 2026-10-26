@@ -1,0 +1,16 @@
+{
+  "key.category.elytra_flight_control.flight": "Elytra Flight Control",
+  "key.category.elytra_flight_control.probe": "Elytra Flight Control Diagnostics",
+  "key.elytra_flight_control.probe": "Read glide attitude (diagnostic)",
+  "key.elytra_flight_control.pitch_up": "Pitch up (pull)",
+  "key.elytra_flight_control.pitch_down": "Pitch down (push)",
+  "key.elytra_flight_control.roll_left": "Roll left",
+  "key.elytra_flight_control.roll_right": "Roll right",
+  "key.elytra_flight_control.yaw_left": "Yaw left",
+  "key.elytra_flight_control.yaw_right": "Yaw right",
+  "key.elytra_flight_control.throttle_up": "Increase throttle / press again at full throttle for WEP",
+  "key.elytra_flight_control.throttle_down": "Decrease throttle / cancel WEP",
+  "key.elytra_flight_control.exit": "Emergency release to vanilla",
+  "key.elytra_flight_control.free_look": "Free look (hold target)",
+  "key.elytra_flight_control.vanilla_control": "Toggle vanilla elytra control"
+}
