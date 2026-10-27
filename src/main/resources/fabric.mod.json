@@ -3,7 +3,7 @@
   "id": "elytra_flight_control",
   "version": "${version}",
   "name": "Elytra Flight Control",
-  "description": "Mouse Aim鞘翅飞控发行候选；需兼容双端，单控制玩家，当前仅单人及本机回环专服。",
+  "description": "Mouse Aim鞘翅飞控；需兼容双端，单控制玩家，当前仅单人及本机回环专服。",
   "environment": "*",
   "entrypoints": {
     "main": [
