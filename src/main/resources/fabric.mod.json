@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "elytra_flight_control",
   "version": "${version}",
-  "name": "Elytra Flight Control",
-  "description": "Mouse Aim鞘翅飞控；需兼容双端，单控制玩家，当前仅单人及本机回环专服。",
+  "name": "3790's Elytra Flight Control",
+  "description": "3790's Elytra Flight Control：Mouse Aim 鞘翅飞控；需兼容双端，单控制玩家，当前仅单人及本机回环专服。",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -21,5 +21,10 @@
     "minecraft": "=26.2",
     "java": ">=25",
     "fabric-api": ">=0.159.0+26.2"
+  },
+  "icon": "assets/elytra_flight_control/icon.png",
+  "contact": {
+    "sources": "https://github.com/zbw3790/3790s-elytra-flight-control",
+    "issues": "https://github.com/zbw3790/3790s-elytra-flight-control/issues"
   }
 }

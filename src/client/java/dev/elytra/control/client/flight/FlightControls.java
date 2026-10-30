@@ -65,7 +65,7 @@ public final class FlightControls {
         if(pausedInput)ARMING.reset();
         if(!pausedInput&&!MENU.waiting()&&!held())ARMING.observe(false);
         if(MENU.releaseSample())ARMING.observe(false);
-        if(!bindNotice&&mc.player!=null&&mc.player.isFallFlying()&&VANILLA.isUnbound()&&mc.gui.screen()==null){bindNotice=true;mc.gui.hud.setOverlayMessage(net.minecraft.network.chat.Component.literal("请在选项→控制→鞘翅飞控中绑定‘原版鞘翅控制切换’"),false);}
+        if(!bindNotice&&mc.player!=null&&mc.player.isFallFlying()&&VANILLA.isUnbound()&&mc.gui.screen()==null){bindNotice=true;mc.gui.hud.setOverlayMessage(net.minecraft.network.chat.Component.literal("请在选项→控制→3790's Elytra Flight Control 中绑定‘原版鞘翅控制切换’"),false);}
         boolean clicked=false;while(VANILLA.consumeClick())clicked=true;
         boolean pressed=TOGGLE_EDGE.take(clicked,VANILLA.isDown());
         // 长按/系统重复不能在RELEASE之后自动再申请；每次需要新的按下边沿。

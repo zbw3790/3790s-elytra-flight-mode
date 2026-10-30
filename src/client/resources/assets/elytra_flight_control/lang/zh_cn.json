@@ -1,8 +1,8 @@
 {
   "key.elytra_flight_control.free_look": "自由观察（冻结目标）",
   "key.elytra_flight_control.probe": "读取滑翔姿态（只读探针）",
-  "key.category.elytra_flight_control.probe": "鞘翅飞控技术探针",
-  "key.category.elytra_flight_control.flight": "鞘翅飞行控制",
+  "key.category.elytra_flight_control.probe": "3790's Elytra Flight Control 诊断",
+  "key.category.elytra_flight_control.flight": "3790's Elytra Flight Control",
   "key.elytra_flight_control.pitch_up": "抬头",
   "key.elytra_flight_control.pitch_down": "低头",
   "key.elytra_flight_control.roll_left": "左滚转",

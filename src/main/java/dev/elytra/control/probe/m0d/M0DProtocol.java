@@ -74,7 +74,7 @@ public final class M0DProtocol {
         public static final Type<ClientMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(ElytraFlightControl.MOD_ID, "control_v16_m4x1"));
         public static final StreamCodec<RegistryFriendlyByteBuf, ClientMessage> CODEC = new StreamCodec<>() {
             @Override public ClientMessage decode(RegistryFriendlyByteBuf b) {
-                if(b.readableBytes()>1024)throw new IllegalArgumentException("EFC控制载荷超过1024字节");
+                if(b.readableBytes()>1024)throw new IllegalArgumentException("3790's Elytra Flight Control 控制载荷超过1024字节");
                 return new ClientMessage(readVersion(b), b.readVarInt(), b.readLong(), b.readLong(), b.readLong(), b.readLong(), readTarget(b),readFrame(b));
             }
             @Override public void encode(RegistryFriendlyByteBuf b, ClientMessage m) {

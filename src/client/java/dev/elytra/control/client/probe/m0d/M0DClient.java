@@ -92,7 +92,7 @@ public final class M0DClient {
             boolean sent=M0DProtocol.freeEnabled()?requestFree():requestAim(M0DProtocol.M1_WINDOW);
             if(!sent){selection.requestFailed();notice("飞控暂不可用，保持原版控制");}
         }else notice(action==ControlSelection.Action.WAIT?"正在安全交接，请稍后再切换":
-            !ClientPlayNetworking.canSend(ClientMessage.TYPE)?"服务器未安装兼容EFC（需要协议16）；保持原版控制":
+            !ClientPlayNetworking.canSend(ClientMessage.TYPE)?"服务器未安装兼容的 3790's Elytra Flight Control（需要协议16）；保持原版控制":
             !mc.player.isFallFlying()?"请先开始游戏认可的鞘翅滑翔":"当前运动状态暂不安全，保持原版控制");
     }
     private static void notice(String text){Minecraft.getInstance().gui.hud.setOverlayMessage(Component.literal(text),false);}

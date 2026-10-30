@@ -1,6 +1,6 @@
 {
-  "key.category.elytra_flight_control.flight": "Elytra Flight Control",
-  "key.category.elytra_flight_control.probe": "Elytra Flight Control Diagnostics",
+  "key.category.elytra_flight_control.flight": "3790's Elytra Flight Control",
+  "key.category.elytra_flight_control.probe": "3790's Elytra Flight Control Diagnostics",
   "key.elytra_flight_control.probe": "Read glide attitude (diagnostic)",
   "key.elytra_flight_control.pitch_up": "Pitch up (pull)",
   "key.elytra_flight_control.pitch_down": "Pitch down (push)",
